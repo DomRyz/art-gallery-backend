@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HASHMI\\Documents\\GitHub\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend.csproj": {}
+    "C:\\Users\\HASHMI\\Documents\\Thoth Tech\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HASHMI\\Documents\\GitHub\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend.csproj": {
+    "C:\\Users\\HASHMI\\Documents\\Thoth Tech\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HASHMI\\Documents\\GitHub\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend.csproj",
+        "projectUniqueName": "C:\\Users\\HASHMI\\Documents\\Thoth Tech\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend.csproj",
         "projectName": "art-gallery-backend",
-        "projectPath": "C:\\Users\\HASHMI\\Documents\\GitHub\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend.csproj",
+        "projectPath": "C:\\Users\\HASHMI\\Documents\\Thoth Tech\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend.csproj",
         "packagesPath": "C:\\Users\\HASHMI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HASHMI\\Documents\\GitHub\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\obj\\",
+        "outputPath": "C:\\Users\\HASHMI\\Documents\\Thoth Tech\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,11 +50,11 @@
             },
             "DateOnlyTimeOnly.AspNet": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.1.1, )"
             },
             "DateOnlyTimeOnly.AspNet.Swashbuckle": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.1.1, )"
             },
             "FastMember": {
               "target": "Package",
@@ -62,23 +62,81 @@
             },
             "IdentityModel": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.1.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.11, )"
             },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Npgsql": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.25.1, )"
+              "version": "[6.30.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.abstractions": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "xunit.analyzers": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "xunit.assert": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.assert.source": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.core": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.extensibility.execution": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.utility": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
