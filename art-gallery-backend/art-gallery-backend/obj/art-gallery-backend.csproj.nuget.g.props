@@ -13,11 +13,571 @@
     <SourceRoot Include="C:\Users\HASHMI\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ItemGroup Condition=" '$(Language)' == 'C#' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Assert.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Assert.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Assert.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\BooleanAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\BooleanAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\BooleanAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\CollectionAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\CollectionAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\CollectionAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Comparers.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Comparers.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Comparers.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\EqualityAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\EqualityAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\EqualityAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\EquivalenceAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\EquivalenceAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\EquivalenceAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\EventAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\EventAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\EventAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\ExceptionAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\ExceptionAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\ExceptionAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\FailAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\FailAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\FailAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Guards.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Guards.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Guards.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\IdentityAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\IdentityAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\IdentityAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\MemoryAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\MemoryAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\MemoryAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\MultipleAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\MultipleAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\MultipleAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\NullAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\NullAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\NullAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\PropertyAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\PropertyAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\PropertyAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\RangeAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\RangeAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\RangeAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Record.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Record.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Record.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\ArgumentFormatter.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\ArgumentFormatter.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\ArgumentFormatter.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\AssertComparer.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\AssertComparer.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\AssertComparer.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\AssertEqualityComparer.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\AssertEqualityComparer.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\AssertEqualityComparer.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\AssertEqualityComparerAdapter.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\AssertEqualityComparerAdapter.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\AssertEqualityComparerAdapter.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\AssertHelper.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\AssertHelper.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\AssertHelper.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\DynamicSkipToken.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\DynamicSkipToken.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\DynamicSkipToken.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\AllException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\AllException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\AllException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\AssertActualExpectedException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\AssertActualExpectedException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\AssertActualExpectedException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\AssertCollectionCountException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\AssertCollectionCountException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\AssertCollectionCountException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\CollectionException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\CollectionException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\CollectionException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\ContainsDuplicateException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\ContainsDuplicateException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\ContainsDuplicateException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\ContainsException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\ContainsException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\ContainsException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\DoesNotContainException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\DoesNotContainException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\DoesNotContainException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\DoesNotMatchException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\DoesNotMatchException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\DoesNotMatchException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\EmptyException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\EmptyException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\EmptyException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\EndsWithException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\EndsWithException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\EndsWithException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\EqualException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\EqualException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\EqualException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\EquivalentException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\EquivalentException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\EquivalentException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\FailException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\FailException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\FailException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\FalseException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\FalseException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\FalseException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\InRangeException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\InRangeException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\InRangeException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\IsAssignableFromException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\IsAssignableFromException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\IsAssignableFromException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\IsNotTypeException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\IsNotTypeException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\IsNotTypeException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\IsTypeException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\IsTypeException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\IsTypeException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\MatchesException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\MatchesException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\MatchesException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\MultipleException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\MultipleException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\MultipleException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\NotEmptyException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\NotEmptyException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\NotEmptyException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\NotEqualException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\NotEqualException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\NotEqualException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\NotInRangeException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\NotInRangeException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\NotInRangeException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\NotNullException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\NotNullException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\NotNullException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\NotSameException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\NotSameException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\NotSameException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\NullException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\NullException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\NullException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\ParameterCountMismatchException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\ParameterCountMismatchException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\ParameterCountMismatchException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\ProperSubsetException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\ProperSubsetException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\ProperSubsetException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\ProperSupersetException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\ProperSupersetException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\ProperSupersetException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\PropertyChangedException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\PropertyChangedException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\PropertyChangedException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\RaisesException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\RaisesException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\RaisesException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\SameException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\SameException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\SameException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\SingleException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\SingleException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\SingleException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\SkipException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\SkipException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\SkipException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\StartsWithException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\StartsWithException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\StartsWithException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\SubsetException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\SubsetException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\SubsetException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\SupersetException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\SupersetException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\SupersetException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\ThrowsException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\ThrowsException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\ThrowsException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\TrueException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\TrueException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\TrueException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\XunitException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\Exceptions\XunitException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\Exceptions\XunitException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\IAssertionException.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\Sdk\IAssertionException.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\Sdk\IAssertionException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\SetAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\SetAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\SetAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\SkipAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\SkipAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\SkipAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\SpanAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\SpanAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\SpanAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\StringAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\StringAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\StringAsserts.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\TypeAsserts.cs" Condition="Exists('$(NuGetPackageRoot)xunit.assert.source\2.4.2\contentFiles\cs\netstandard1.1\Asserts\TypeAsserts.cs')">
+      <NuGetPackageId>xunit.assert.source</NuGetPackageId>
+      <NuGetPackageVersion>2.4.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Asserts\TypeAsserts.cs</Link>
+    </Compile>
+  </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xunit.runner.visualstudio\2.4.5\build\netcoreapp3.1\xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.visualstudio\2.4.5\build\netcoreapp3.1\xunit.runner.visualstudio.props')" />
+    <Import Project="$(NuGetPackageRoot)xunit.runner.msbuild\2.4.2\build\net452\xunit.runner.msbuild.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.msbuild\2.4.2\build\net452\xunit.runner.msbuild.props')" />
+    <Import Project="$(NuGetPackageRoot)xunit.runner.console\2.4.2\build\xunit.runner.console.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.console\2.4.2\build\xunit.runner.console.props')" />
+    <Import Project="$(NuGetPackageRoot)xunit.core\2.4.2\build\xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.4.2\build\xunit.core.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props')" />
-    <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\6.4.0\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\6.4.0\build\Swashbuckle.AspNetCore.props')" />
+    <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\6.5.0\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\6.5.0\build\Swashbuckle.AspNetCore.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgxunit_runner_console Condition=" '$(Pkgxunit_runner_console)' == '' ">C:\Users\HASHMI\.nuget\packages\xunit.runner.console\2.4.2</Pkgxunit_runner_console>
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\HASHMI\.nuget\packages\xunit.analyzers\1.1.0</Pkgxunit_analyzers>
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\HASHMI\.nuget\packages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
   </PropertyGroup>
 </Project>
