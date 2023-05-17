@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chloehulme/Desktop/Art Gallery Backend/art-gallery-backend/art-gallery-backend/art-gallery-backend/art-gallery-backend.csproj": {}
+    "C:\\Users\\HASHMI\\Documents\\GitHub\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend.csproj": {}
   },
   "projects": {
-    "/Users/chloehulme/Desktop/Art Gallery Backend/art-gallery-backend/art-gallery-backend/art-gallery-backend/art-gallery-backend.csproj": {
+    "C:\\Users\\HASHMI\\Documents\\GitHub\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chloehulme/Desktop/Art Gallery Backend/art-gallery-backend/art-gallery-backend/art-gallery-backend/art-gallery-backend.csproj",
+        "projectUniqueName": "C:\\Users\\HASHMI\\Documents\\GitHub\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend.csproj",
         "projectName": "art-gallery-backend",
-        "projectPath": "/Users/chloehulme/Desktop/Art Gallery Backend/art-gallery-backend/art-gallery-backend/art-gallery-backend/art-gallery-backend.csproj",
-        "packagesPath": "/Users/chloehulme/.nuget/packages/",
-        "outputPath": "/Users/chloehulme/Desktop/Art Gallery Backend/art-gallery-backend/art-gallery-backend/art-gallery-backend/obj/",
+        "projectPath": "C:\\Users\\HASHMI\\Documents\\GitHub\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend.csproj",
+        "packagesPath": "C:\\Users\\HASHMI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HASHMI\\Documents\\GitHub\\art-gallery-backend\\art-gallery-backend\\art-gallery-backend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/chloehulme/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\HASHMI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -95,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
